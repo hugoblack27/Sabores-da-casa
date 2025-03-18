@@ -47,7 +47,7 @@ body {
 
 /* header */
 
-.header-receitas{
+.header-receitas {
     background-image: url(/imagens/imagem\ de\ fundo\ grande.png);
     width: 100%;
     height: 60vh;
@@ -60,13 +60,13 @@ body {
     align-items: flex-start;
 }
 
-.header-receitas h1{
+.header-receitas h1 {
     color: white;
     margin: 0 10px;
     font-size: 35px;
 }
 
-.header-receitas p{
+.header-receitas p {
     color: white;
     margin: 0 10px;
     font-size: 15px;
@@ -75,14 +75,94 @@ body {
 }
 
 
-.voltar-pagina{
-display:flex ;
-justify-content: flex-start;
+.voltar-pagina a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 25px;
+    color: #000;
 }
 
-.voltar-pagina img{
+.voltar-pagina img {
     width: 20px;
     height: 20px;
 }
 
 /* Main */
+
+.main-receitas {
+    display: flex;
+    justify-items: center;
+    gap: 95px;
+}
+
+/*  parte da receita da main */
+.conteiner-receitas {
+    background-color: #fff;
+    width: 140vh;
+    height: 100vh;
+    border-radius: 15px;
+    margin-left: 27px;
+}
+
+.marcacao-receitas {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.marcacao-receitas img {
+    width: 25px;
+    height: 25px;
+}
+
+.marcacao-receitas-texto h5 {
+    font-size: 15px;
+    color: gray;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.marcacao-receitas-texto h3 {
+    margin: 0;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div-marcacao-receitas {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: 35px;
+    border-bottom: 1px solid gray;
+
+}
+
+.botoes-receitas {
+    background-color: #929292;
+    width: 120vh;
+    height: 35px;
+    margin-top: 15px;
+    display: flex;
+    margin-left: 35px;
+    gap: 5px;
+}
+
+.botoes{
+    width: 200px;
+    gap: 10px;
+    border: 0;
+    background-color: #929292;
+}
+
+/* parte da nutricao da main */
+
+.conteiner-nutricao-info {
+    background-color: #000000;
+    width: 50vh;
+    height: 70vh;
+    border-radius: 15px;
+}
