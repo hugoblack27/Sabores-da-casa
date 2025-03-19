@@ -103,6 +103,7 @@ body {
     height: 100vh;
     border-radius: 15px;
     margin-left: 27px;
+    margin-bottom: 24px;
 }
 
 .marcacao-receitas {
@@ -136,14 +137,14 @@ body {
     display: flex;
     align-items: center;
     gap: 25px;
-    margin-left: 35px;
-    border-bottom: 1px solid gray;
-
+    margin: 0 35px;
+    border-bottom: 1px solid #a3a3a3 ;
 }
 
+
 .botoes-receitas {
-    background-color: #929292;
-    width: 120vh;
+    background-color: #a3a3a3;
+    width: 129vh;
     height: 35px;
     margin-top: 15px;
     display: flex;
@@ -151,12 +152,24 @@ body {
     gap: 5px;
 }
 
-.botoes{
+.botoes {
     width: 200px;
     gap: 10px;
     border: 0;
-    background-color: #929292;
+    background-color: #a3a3a3;
+    color: #888888;
 }
+
+.li-receitas{
+    display: flex;
+    flex-direction: column;
+    margin: 35px 0;
+}
+
+.li-receitas li{
+    margin: 15px 35px;
+}
+
 
 /* parte da nutricao da main */
 
