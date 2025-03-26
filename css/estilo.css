@@ -174,8 +174,20 @@ body {
 /* parte da nutricao da main */
 
 .conteiner-nutricao-info {
-    background-color: #000000;
+    background-color: #ffffff;
     width: 50vh;
     height: 70vh;
     border-radius: 15px;
+}
+
+.informacoes-conteiner{
+    border-bottom: 1px solid #a3a3a3;
+    margin: 0 15px;
+}
+
+.informacoes-conteiner h5{
+    margin-top: 10px;
+    margin-bottom: 0;
+    display: flex;
+    
 }
